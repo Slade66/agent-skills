@@ -1,9 +1,14 @@
+---
+created: 2026-03-17T17:08:00+08:00
+---
 
 # `sql.Open`：根据驱动名和数据源信息，创建一个可复用的数据库连接池对象（`*sql.DB`）
 
 ## 函数签名
 
 - `func Open(driverName, dataSourceName string) (*DB, error)`
+
+- **所属包：** `database/sql`
 
 ### 参数
 
